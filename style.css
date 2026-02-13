@@ -11,7 +11,7 @@ main{
     display: flex;
     flex-direction: column;
     background: rgb(255,198,0);
-    width: 400px;
+    width: 500px;
     height: 600px;
     align-items: center;
     justify-content: space-evenly;
@@ -32,13 +32,13 @@ main{
     
     .input {
     display: flex;
-    width: 300px;
+    width: 400px;
     height: 50px;
     justify-content: space-between;
     align-items: center;
     }
     .input input {
-    width: 200px;
+    width: 300px;
     height: 50px;
     border-radius: 5px;
     border:none;
@@ -52,7 +52,7 @@ main{
     }
     
     button{
-    width: 300px;
+    width: 400px;
     height: 40px;
     font: bold 1.2rem serif;
     background: #000;
@@ -66,7 +66,7 @@ main{
     display: flex;
     margin-top: 20px;
     align-items: center;
-    width: 300px;
+    width: 400px;
     height: 150px;
     border-radius: 5px;
     font: italic 1.5rem serif;

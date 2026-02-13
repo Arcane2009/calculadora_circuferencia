@@ -5,7 +5,7 @@ function poup(){
     const pi = document.getElementById('pi').value;
     const resultado = document.getElementById('resultado');
 
-    if(nome !==''&& raio !==''&& pi!==''){
+    if(raio !==''&& pi!==''){
         const valorPOU = pi*(raio*raio).toFixed(1);
         let classificacao = '';
         if(valorPOU <= 20){
